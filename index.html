@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="MHGLS Weboldala" />
         <meta name="author" content="Shotya" />
-        <title>115</title>
+        <title>Fő oldal</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -26,8 +26,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">Tartalom</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Rólunk</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Rólunk</a></li>
                         <li class="nav-item"><a class="nav-link" href="#signup">Elérhetőségek</a></li>
                     </ul>
                 </div>
@@ -38,6 +37,12 @@
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">   
+                        <h1><span id="datetime"></span></h1>
+
+                        <script>
+                        var dt = new Date();
+                        document.getElementById("datetime").innerHTML = dt.toLocaleTimeString();
+                        </script>
                         <h2 class="text-white-50 mx-auto mt-2 mb-5">"Pro Patria ad mortem!"</h2>
                         <a class="btn btn-primary" href="./adatbazis.html">Adatbázis</a>
                     </div>
