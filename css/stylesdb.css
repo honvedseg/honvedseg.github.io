@@ -2852,7 +2852,7 @@ textarea.form-control-lg {
   --bs-btn-bg: #A78953;
   --bs-btn-border-color: #A78953;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #3F6747;
+  --bs-btn-hover-bg: #caa764;
   --bs-btn-hover-border-color: #3F6747;
   --bs-btn-focus-shadow-rgb: 123, 175, 172;
   --bs-btn-active-color: #fff;
@@ -11070,6 +11070,18 @@ body {
   min-height: 35rem;
   padding: 15rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-database.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.apply {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-apply.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
