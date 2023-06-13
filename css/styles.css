@@ -606,6 +606,9 @@ progress {
   max-width: 100%;
   height: auto;
 }
+.img-small {
+  height: 15px;
+}
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -2880,6 +2883,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #7464a1;
   --bs-btn-disabled-border-color: #7464a1;
+  
 }
 
 .btn-success {
