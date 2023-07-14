@@ -609,6 +609,9 @@ progress {
 .img-small {
   height: 15px;
 }
+.img-medium {
+  height: 150px;
+}
 
 .img-thumbnail {
   padding: 0.25rem;
