@@ -97,12 +97,22 @@ to {background-position: 0px 0px;background-size:2750px;}
   place-items: center;
 }
 .title {
-	width: 8ch;
+	width: 13ch;
     font-size: 48px;
     letter-spacing: 2px;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px 40px; /* Adjust padding as needed */
+    padding: 20px 40px;
 	animation: typing 0.5s steps(8), blink .6s step-end infinite alternate;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.branch{
+	width: 14ch;
+    font-size: 48px;
+    letter-spacing: 2px;
+    background-color: rgba(0, 0, 0, 0.5);
+	padding: 20px 40px; /* Adjust padding as needed */
+	animation: typing 0.5s steps(14), blink .6s step-end infinite alternate;
 	white-space: nowrap;
 	overflow: hidden;
 }
@@ -141,6 +151,24 @@ iframe {
 .mainbutton:hover {
     box-shadow: 0 0 40px rgba(162,255,0,1.00); /* Enhanced glow effect on hover */
 	cursor: none;
+}
+a{
+	cursor: none;
+	background-color: rgba(118, 185, 0, 0.5);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 32px;
+    color: #76B900;
+    border: none; /* Remove the border */
+    padding: 10px 20px; /* Add padding to make the button more visible */
+    outline: none; /* Remove default outline */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    box-shadow: 0 0 20px rgba(118, 185, 0, 0.8); /* Initial glow effect */
+    transition: box-shadow 0.4s ease; /* Smooth transition for the glow effect */
+	text-decoration: none;
+}
+a:hover{
+	cursor: none;
+	box-shadow: 0 0 40px rgba(162,255,0,1.00);
 }
 .container {
     display: flex;

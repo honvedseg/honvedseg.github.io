@@ -14,7 +14,7 @@
     <div class="background1" id="background1">
         <div class="content">
 		  	<div class="wrapper">
-           		<h1 class="title">MH | 115</h1>
+           		<h1 class="title">MH | Főoldal</h1>
 				<p class="subtitle">New logo here</p>
 			</div>
 		  <button class="mainbutton" onclick="window.location.href = 'http://www.google.com';" onmouseover="playHoverSound()">Csatlakozz</button>
@@ -29,7 +29,7 @@
 			</div>
 			<div class="box">
 				<div class="inner-box">
-					<h2>content</h2>
+					<h2><a href="inf.html" onmouseover="playHoverSound()">Gyalogság</a></h2>
 				</div>
 			</div>
 			<div class="box">
@@ -53,12 +53,12 @@
                 background.classList.remove('scrolled');
             }
         });
-    </script>
+</script>
 <script src="script.js"></script>
 	<audio id="hoverSound">
         <source src="hover.mp3" type="audio/mpeg">
     </audio>
-<script>
+	<script>
         function playHoverSound() {
             document.getElementById('hoverSound').play();
         }

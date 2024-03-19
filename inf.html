@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<meta charset="UTF-8">
+	<title>MH | Gyalogság</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="custom-cursor"></div>
+	<div class="background1" id="background1">
+        <div class="content">
+		  	<div class="wrapper">
+           		<h1 class="branch">MH | Gyalogság</h1>
+			</div>
+	<div>
+		<div class="container">
+				<div class="box">
+					<div class="inner-box">
+						<h2><a href="inf.html" onmouseover="playHoverSound()">PK/HIK</a></h2>
+					</div>
+				</div>
+				<div class="box">
+					<div class="inner-box">
+						<h2><a href="inf.html" onmouseover="playHoverSound()">GPU/PCT</a></h2>
+					</div>
+				</div>
+				<div class="box">
+					<div class="inner-box">
+						<h2><a href="inf.html" onmouseover="playHoverSound()">HÉK</a></h2>
+					</div>
+				</div>
+				<div class="box">
+					<div class="inner-box">
+						<h2><a href="inf.html" onmouseover="playHoverSound()">TEKU</a></h2>
+					</div>
+				</div>
+				<div class="box">
+					<div class="inner-box">
+						<h2><a href="inf.html" onmouseover="playHoverSound()">RTM</a></h2>
+					</div>
+				</div>
+		</div>
+	</div>
+        </div>
+    </div>
+	<script> window.addEventListener('scroll', function() {
+            var scrolled = window.scrollY;
+            var background = document.getElementById('background');
+            if (scrolled > 0) {
+                background.classList.add('scrolled');
+            } else {
+                background.classList.remove('scrolled');
+            }
+        });
+    </script>
+<script src="script.js"></script>
+	<audio id="hoverSound">
+        <source src="hover.mp3" type="audio/mpeg">
+    </audio>
+	<script>
+        function playHoverSound() {
+            document.getElementById('hoverSound').play();
+        }
+	</script>
+</body>
+</html>
